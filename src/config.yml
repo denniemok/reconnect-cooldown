@@ -1,0 +1,4 @@
+kick-message: "Please wait for 10 seconds before joining back!"
+cd-duration: 10 # in seconds
+reload-config: "Config Reloaded."
+no-permission: "Unknown Command"
