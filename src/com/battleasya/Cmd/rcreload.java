@@ -17,12 +17,12 @@ public class rcreload implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String s, String[] args) {
 
-        if (!sender.hasPermission("reconnectcooldown.reload")) {
-            sender.sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.config.noPermission));
-        } else {
+        if (sender.hasPermission("reconnectcooldown.reload")) {
             plugin.reloadConfig();
             plugin.config.fetchConfig();
             sender.sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.config.reloadConfig));
+        } else {
+            sender.sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.config.noPermission));
         }
 
         return true;
