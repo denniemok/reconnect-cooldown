@@ -1,7 +1,5 @@
-# Staff Chat
-A very simple and lightweight staff chat plugin. <br>
-The best way to chat with your fellow staff easily. <br>
-Inspiration from https://www.spigotmc.org/resources/staff-chat.17706/ <br>
+# Reconnect Cooldown
+A very simple and lightweight reconnect cooldown plugin. <br>
 
 ## Dependencies
 - Java 8
