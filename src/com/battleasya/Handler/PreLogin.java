@@ -6,11 +6,11 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerPreLoginEvent;
 
-public class LoginEvent implements Listener {
+public class PreLogin implements Listener {
 
     private final ReconnectCooldown plugin;
 
-    public LoginEvent(ReconnectCooldown plugin) {
+    public PreLogin(ReconnectCooldown plugin) {
         this.plugin = plugin;
     }
 

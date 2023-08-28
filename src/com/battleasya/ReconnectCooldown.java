@@ -1,7 +1,7 @@
 package com.battleasya;
 
 import com.battleasya.Cmd.rcreload;
-import com.battleasya.Handler.LoginEvent;
+import com.battleasya.Handler.PreLogin;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
 import java.util.HashMap;
@@ -21,7 +21,7 @@ public class ReconnectCooldown extends JavaPlugin {
         config.fetchConfig();
 
         getCommand("rcreload").setExecutor(new rcreload(this));
-        getServer().getPluginManager().registerEvents(new LoginEvent(this), this);
+        getServer().getPluginManager().registerEvents(new PreLogin(this), this);
 
     }
 
