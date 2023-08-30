@@ -1,5 +1,6 @@
-package com.battleasya;
+package com.battleasya.reconnectcooldown.handler;
 
+import com.battleasya.reconnectcooldown.ReconnectCooldown;
 import org.bukkit.configuration.file.FileConfiguration;
 
 public class Config {

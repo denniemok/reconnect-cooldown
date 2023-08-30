@@ -1,16 +1,16 @@
-package com.battleasya.Cmd;
+package com.battleasya.reconnectcooldown.command;
 
-import com.battleasya.ReconnectCooldown;
+import com.battleasya.reconnectcooldown.ReconnectCooldown;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
-public class rcreload implements CommandExecutor {
+public class Reload implements CommandExecutor {
 
     private final ReconnectCooldown plugin;
 
-    public rcreload(ReconnectCooldown plugin) {
+    public Reload(ReconnectCooldown plugin) {
         this.plugin = plugin;
     }
 

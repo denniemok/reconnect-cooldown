@@ -1,6 +1,6 @@
-package com.battleasya.Handler;
+package com.battleasya.reconnectcooldown.handler;
 
-import com.battleasya.ReconnectCooldown;
+import com.battleasya.reconnectcooldown.ReconnectCooldown;
 import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -15,12 +15,12 @@ public class PreLogin implements Listener {
     }
 
     @EventHandler
-    public void onJoin(AsyncPlayerPreLoginEvent e) {
+    public void onJoin(AsyncPlayerPreLoginEvent event) {
 
-        String playerName = e.getName();
+        String playerName = event.getName();
 
         if (plugin.inCooldown(playerName)) {
-            e.disallow(AsyncPlayerPreLoginEvent.Result.KICK_OTHER, ChatColor.translateAlternateColorCodes('&', plugin.config.kickMessage));
+            event.disallow(AsyncPlayerPreLoginEvent.Result.KICK_OTHER, ChatColor.translateAlternateColorCodes('&', plugin.config.kickMessage));
         }
 
     }
