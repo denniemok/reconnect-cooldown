@@ -19,7 +19,7 @@ public class ReconnectCooldown extends JavaPlugin {
         config = new Config(this);
         config.fetchConfig();
 
-        getCommand("rcreload").setExecutor(new Reload(this));
+        getCommand("rccdreload").setExecutor(new Reload(this));
         getServer().getPluginManager().registerEvents(new PreLogin(this), this);
 
     }

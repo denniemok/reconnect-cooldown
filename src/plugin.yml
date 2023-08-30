@@ -3,10 +3,10 @@ main: com.battleasya.reconnectcooldown.ReconnectCooldown
 version: 1.0.0
 author: Dennie
 website: http://battleasya.com
-description: A simple reconnect cooldown system.
+description: Reconnect Cooldown System
 commands:
-  rcreload:
+  rccdreload:
     description: Reload config.
 permissions:
-  reconnectcooldown.reload:
+  rccd.reload:
     default: op

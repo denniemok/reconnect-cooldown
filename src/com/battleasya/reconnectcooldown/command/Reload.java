@@ -17,7 +17,7 @@ public class Reload implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String s, String[] args) {
 
-        if (sender.hasPermission("reconnectcooldown.reload")) {
+        if (sender.hasPermission("rccd.reload")) {
             plugin.reloadConfig();
             plugin.config.fetchConfig();
             sender.sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.config.reloadConfig));
