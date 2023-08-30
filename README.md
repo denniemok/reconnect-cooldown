@@ -15,7 +15,9 @@
 <hr>
 
 ### Introduction
-This is a minimalist plugin with exactly one function: cooldown any reconnection. Nothing fancy or complicated is involved. It only does the simplest task you ask for, and hence the performance. <br>
+This is a minimalist plugin with exactly one function: cooldown any reconnections. Nothing fancy or complicated is involved. It only does the simplest task you ask for, and hence the performance. <p>
+
+This plugin is especially useful if you have installed some heavy plugins that do a lot of loadings on join events. Frequent reconnection not only floods the chat with join messages, it might also cause troubles to some plugins. This plugin aims at providing a solution to this issue by introducing a cooldown on reconnections. <br>
 
 <hr>
 
