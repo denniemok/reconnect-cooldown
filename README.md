@@ -5,7 +5,6 @@
 </p>
 
 <p align="center">
-    Cooldown reconnections.<br>
     <a href="https://github.com/denniemok/reconnect-cooldown/releases">Latest Release</a> •
     <a href="https://github.com/denniemok/reconnect-cooldown/wiki">User Guide</a> •
     <a href="https://github.com/denniemok/reconnect-cooldown/issues">Issue Tracker</a>
