@@ -1,16 +1,16 @@
 <br>
 <h3 align="center">Reconnect Cooldown</h3>
-<p align="center">A minimalist way to cooldown reconnections.</p>
+<p align="center">
+    <img src="https://img.shields.io/badge/Version-1.0.0-green"> <img src="https://img.shields.io/badge/Spigot-1.8+-lightgrey"> <img src="https://img.shields.io/badge/License-MIT-blue"> <img src="https://img.shields.io/badge/Language-Java-yellow">
+</p>
 
 <p align="center">
+    Cooldown reconnections.<br>
     <a href="https://github.com/denniemok/Reconnect-Cooldown/releases">Latest Release</a> •
     <a href="https://github.com/denniemok/Reconnect-Cooldown/wiki">User Guide</a> •
     <a href="https://github.com/denniemok/Reconnect-Cooldown/issues">Issue Tracker</a>
 </p>
-
-<p align="center">
-    <img src="https://img.shields.io/badge/Version-1.0.0-green"> <img src="https://img.shields.io/badge/Spigot-1.8+-lightgrey"> <img src="https://img.shields.io/badge/License-MIT-blue"> <img src="https://img.shields.io/badge/Language-Java-yellow">
-</p><br>
+<br>
 
 <hr>
 
