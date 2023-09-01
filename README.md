@@ -6,9 +6,9 @@
 
 <p align="center">
     Cooldown reconnections.<br>
-    <a href="https://github.com/denniemok/Reconnect-Cooldown/releases">Latest Release</a> •
-    <a href="https://github.com/denniemok/Reconnect-Cooldown/wiki">User Guide</a> •
-    <a href="https://github.com/denniemok/Reconnect-Cooldown/issues">Issue Tracker</a>
+    <a href="https://github.com/denniemok/reconnect-cooldown/releases">Latest Release</a> •
+    <a href="https://github.com/denniemok/reconnect-cooldown/wiki">User Guide</a> •
+    <a href="https://github.com/denniemok/reconnect-cooldown/issues">Issue Tracker</a>
 </p>
 <br>
 
