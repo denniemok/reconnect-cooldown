@@ -18,7 +18,7 @@ This is a minimalist plugin with exactly one function: cooldown any reconnection
 
 This plugin is especially useful if you have installed some heavy plugins that do a lot of loadings on join events. Frequent reconnection not only floods the chat with join messages but might also cause trouble for some plugins. This plugin aims to provide a solution to this issue by introducing a cooldown on reconnections.
 
-Originally being part of [BattleAsya Utility](https://github.com/denniemok/battleasya-utility), this plugin is now made available separately with enhanced configurability.
+Originally being part of [BattleAsya Utility](https://github.com/denniemok/battleasya-utility), this component is now made available separately with enhanced configurability.
 
 <hr>
 
